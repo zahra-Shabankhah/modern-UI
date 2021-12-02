@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ModernUI</string>
+    <string name="android_class">android class</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="mentor_name">Zahra Shabankhah</string>
+    <string name="mentor">Mentor</string>
+    <string name="themes">Themes</string>
+    <string name="layouts">layouts</string>
+    <string name="lifecycles">lifecycles</string>
+    <string name="internet">internet</string>
+    <string name="database_string">database</string>
+    <string name="arch_string">architecture</string>
+    <string name="company_year">company year</string>
+    <string name="textview">TextView</string>
+    <string name="company_name">company name</string>
+</resources>
