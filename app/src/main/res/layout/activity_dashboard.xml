@@ -236,18 +236,18 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="116dp">
+
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/imageLayoutCard"
                         android:layout_width="0dp"
                         android:layout_height="0dp"
                         android:layout_margin="8dp"
                         android:src="@drawable/userinterface01"
-                        app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintBottom_toTopOf="@+id/textViewLayoutCard"
-                        app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        />
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/textViewLayoutCard"
@@ -281,7 +281,7 @@
             android:gravity="center_horizontal">
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/internetCards"
+                android:id="@+id/implicitCards"
                 android:layout_width="128dp"
                 android:layout_height="128dp"
                 android:layout_margin="8dp"
@@ -310,7 +310,7 @@
                         android:id="@+id/textViewInternetCard"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/internet"
+                        android:text="Implicit intent"
                         android:textAllCaps="true"
                         android:textColor="@color/green_500"
                         android:textSize="14sp"
@@ -469,6 +469,8 @@
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
+
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
